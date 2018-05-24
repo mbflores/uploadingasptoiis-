@@ -10,7 +10,7 @@ How to host your asp.net website on IIS (Internet Information Services), and acc
 
 2.	Select MVC templates, and change the authentication to Individual User Accounts
 
-
+![alt text](https://github.com/mbflores/uploadingasptoiis-/blob/master/images/2.png)
 
 
 
@@ -21,25 +21,15 @@ How to host your asp.net website on IIS (Internet Information Services), and acc
 
 
 3.Publish your project, right-click the project name, and click publish
- 
+ ![alt text](https://github.com/mbflores/uploadingasptoiis-/blob/master/images/3.png)
 4.Make sure that you are in the Folder tab in the pick a publish target, and select a directory for the published project, then click publish.
- 
+ ![alt text](https://github.com/mbflores/uploadingasptoiis-/blob/master/images/4.png)
 5. Open your IIS, right-click “Sites” and click add Website
-
-
-
-
-
-
-
-
-
-
-
+![alt text](https://github.com/mbflores/uploadingasptoiis-/blob/master/images/5.png)
 
 
 6. Fill-up the necessary information and select the path of the project you published awhile ago in the visual studio, and click ok
-
+![alt text](https://github.com/mbflores/uploadingasptoiis-/blob/master/images/6.png)
 
 
 
