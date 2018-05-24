@@ -36,6 +36,8 @@ How to host your asp.net website on IIS (Internet Information Services), and acc
 
 
 6. Fill-up the necessary information and select the path of the project you published awhile ago in the visual studio, and click ok
+
+
 ![alt text](https://github.com/mbflores/uploadingasptoiis-/blob/master/images/6.png)
 
 
@@ -51,6 +53,8 @@ How to host your asp.net website on IIS (Internet Information Services), and acc
 
 7. Application Pools-> right-click your Website->Advanced Settings, then change the value of Identity (Process Model) to LocalSystem, then click ok.
 
+
+![alt text](https://github.com/mbflores/uploadingasptoiis-/blob/master/images/7.png)
  
 
 
@@ -68,7 +72,7 @@ Register the C:\Windows\System32\drivers\etc
 *There is no HostName Entered, so the url you would like to register is “localhost”
 
  
-
+![alt text](https://github.com/mbflores/uploadingasptoiis-/blob/master/images/8.png)
 
 
 
@@ -80,7 +84,7 @@ Register the C:\Windows\System32\drivers\etc
 9. Go to your lovely browser to test the URL of your site if your website is up and running
  
 
-
+![alt text](https://github.com/mbflores/uploadingasptoiis-/blob/master/images/9.png)
 
 
 
@@ -96,10 +100,15 @@ Register the C:\Windows\System32\drivers\etc
 
 
 In order for your website to be locally accessed by other devices from your local area network.
- 
+
+
+ ![alt text](https://github.com/mbflores/uploadingasptoiis-/blob/master/images/1-1.png)
 
 1.	Add new Inbound Rule, click port->next, select tcp, select specific port “8080” for my case, where in that is the port I used in step 6 earlier. -> next, click allow the connection->next->next-> and name the rule you would wanted to, then click finish
 
+
+![alt text](https://github.com/mbflores/uploadingasptoiis-/blob/master/images/1-1a.png)
  
 2.	Open website, using another device connected in your network, and access  your unit’s ip address:port(pertaining to localhost:8080) in my case, my unit’s ip is “192.168.1.5”, the the Url that I would like to access in my phone is, 192.168.1.5:8080
 
+![alt text](https://github.com/mbflores/uploadingasptoiis-/blob/master/images/1-2.png)
