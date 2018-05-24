@@ -111,4 +111,4 @@ In order for your website to be locally accessed by other devices from your loca
  
 2.	Open website, using another device connected in your network, and access  your unit’s ip address:port(pertaining to localhost:8080) in my case, my unit’s ip is “192.168.1.5”, the the Url that I would like to access in my phone is, 192.168.1.5:8080
 
-![alt text](https://github.com/mbflores/uploadingasptoiis-/blob/master/images/1-2.png)
+![alt text](https://github.com/mbflores/uploadingasptoiis-/blob/master/images/1-2.jpg)
